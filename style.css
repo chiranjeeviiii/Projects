@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.projects-list a {
+  text-decoration: none;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.projects-list a:hover {
+  text-decoration: underline;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #94a3b8;
+  text-decoration: none;
+}
